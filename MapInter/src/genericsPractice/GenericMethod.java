@@ -10,6 +10,13 @@ public static <K,V> void fun2(K k,V v)
 {
 	System.out.println(k+" ============ "+v);
 }
+//We can add some return type as  Well
+public static <K,V> V fun3(K k,V v)
+{
+	System.out.println(k+" ============ "+v);
+	//according to return type it will return the values.
+	return v;
+}
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
