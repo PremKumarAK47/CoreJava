@@ -6,15 +6,15 @@ public class RotationOfString {
   */
 	public static boolean roatationCheck(String str1,String str2)
 	{
-		return (str1.length()==str2.length()) && ((str1+str2).indexOf(str2)!=-1);
+		return (str1.length() == str2.length()) && ((str1+str1).indexOf(str2) != -1);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str1= "ABCD";
-		String str2="CDAf";
+		String str2= "CDAB";
 		
-		boolean y=roatationCheck(str1,str2);
-		if(y)
+		//boolean y=roatationCheck(str1,str2);
+		if(roatationCheck(str1,str2))
 		{
 			System.out.println("String is Rotation of itSelf");
 			
