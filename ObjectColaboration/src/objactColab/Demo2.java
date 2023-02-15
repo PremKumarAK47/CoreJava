@@ -7,6 +7,7 @@ public class Demo2 {
 	 * methods are two type 
 	 * parameterized non parameterized
 	 * static or non static
+	 * return Type and non return type(Void)
 	 * if in parameterized method we are passing any reference variable
 	 * then we can pass it by in three ways;
 	 * The first one is it's own class object,
@@ -33,6 +34,12 @@ public class Demo2 {
      static void funD(A a1)
      {
     	 System.out.println("This is for parameterized constructer for Passing refernce variable ");
+    	 if(a1!=null)
+    	 {
+    		 a1.funA();
+        	 System.out.println("This will give NPE means Null Pointer            Exception"); 
+    	 }
+    	
     	 
      }
 	public static void main(String[] args) {
@@ -42,6 +49,8 @@ public class Demo2 {
 		int x=100;
 		funC(x);
 		funB();
+		A a2=null;
+		funD(a2);
 	}
 
 }
