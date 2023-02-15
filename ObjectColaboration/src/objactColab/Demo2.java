@@ -7,7 +7,11 @@ public class Demo2 {
 	 * methods are two type 
 	 * parameterized non parameterized
 	 * static or non static
-	 * 
+	 * if in parameterized method we are passing any reference variable
+	 * then we can pass it by in three ways;
+	 * The first one is it's own class object,
+	 * The Second one is NUll value;
+	 * The third one is it's child class object(which is inheritance)
 	 */
      void funA()
      {
