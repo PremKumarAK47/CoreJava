@@ -37,7 +37,10 @@ public class Dog extends Animal {
 		
 		Animal a1= new Dog();
 		a1.eat();// it will give the priority to overridden method.,
-		
+		// to call the child class object we can either create new object of that
+		// class or we can downcast to that class and hold in that object
 		Dog d= (Dog) a1;
+		// now we can access the child class methods
+		d.displayDetails();
 	}
 }
