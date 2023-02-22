@@ -2,6 +2,9 @@ package consForAbstract;
 
 public class Cars extends Vechile {
 	
+	
+
+
 	int numDoors;
 
 	public Cars(String make, String model, int year, int numDoors) {
@@ -9,6 +12,7 @@ public class Cars extends Vechile {
 		// TODO Auto-generated constructor stub
 		this.numDoors=numDoors;
 	}
+	
 
 
 	@Override
@@ -16,7 +20,6 @@ public class Cars extends Vechile {
 		System.out.println("Car is Starting...!!");
 		
 	}
-
 
 	public int getNumDoors() {
 		return numDoors;
