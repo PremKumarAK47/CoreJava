@@ -15,6 +15,10 @@ if some property is same but functionality is different then make that method
 abstract and inherit them in all and define accordingly. 
 for example -:
 there is Super class Animal-
-there are some more animals like dog cat lion and many more
+there are some more animals like dog cat lion and many more then all have common
+functionality like eat, Sleep, walk, but everyone have different noise
+so in animal class define all method and make one abstract method makeNoise 
+and inherit in all class and define accordingly 
+that is the use of abstract class and abstract method.
 
 */
