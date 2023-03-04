@@ -13,6 +13,8 @@ want with them all, so we have to solution either
 so make a super class of all  of them as abstract class and extend them in all
 if some property is same but functionality is different then make that method 
 abstract and inherit them in all and define accordingly. 
-
+for example -:
+there is Super class Animal-
+there are some more animals like dog cat lion and many more
 
 */
