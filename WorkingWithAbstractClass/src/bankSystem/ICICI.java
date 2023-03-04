@@ -1,6 +1,6 @@
 package bankSystem;
 
-public class ICIC extends Bank{
+public class ICICI extends Bank{
 
 	@Override
 	int getRateOfInterest() {
