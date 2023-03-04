@@ -4,6 +4,13 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseSpecialString {
+	/*
+	 * The problem statement of this question is that you have given a 
+	 * String which contains special symbols too we have to reverse the 
+	 * that String without affecting the special symbols.
+	 * 
+	 * 
+	 */
 	
 	public static void reversStr(String str)
 	{
