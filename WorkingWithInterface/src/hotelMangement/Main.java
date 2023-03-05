@@ -31,6 +31,12 @@ public class Main {
 		{
 			h1.chickenBiryani();
 			h1.masalaDosa();
+			//Calling specific method of any class
+			if(h1 instanceof TajHotel)
+			{
+				TajHotel taj=(TajHotel)h1;
+				taj.paneerMasalaDosa();
+			}
 		}
 		else
 		{

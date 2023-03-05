@@ -15,5 +15,11 @@ public class TajHotel implements Hotel {
 		System.out.println("Masala Dosa From TajHotel");
 		
 	}
+	
+	//specific method of TajHotel class
+		public void paneerMasalaDosa() {
+			
+			System.out.println("paneer masala dosa from Taj Hotel");
+		}
 
 }
