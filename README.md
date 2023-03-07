@@ -8,3 +8,22 @@ so we can object of abstract class in it's child class,
  
   1. Use a public static factory method:  
  <n> A factory method is a method that returns an object of the class. Since the method is public, it can be accessed from another class, and since it's static, it can create an object without needing to call the constructor directly. The factory method can call the private constructor and return an object of the class.</n>
+</n>Example
+public class MyClass {
+  private MyClass() {
+    // private constructor
+  }
+
+  public static MyClass createMyClass() {
+    return new MyClass();
+  }
+}
+
+public class AnotherClass {
+  public void doSomething() {
+    MyClass myObj = MyClass.createMyClass();
+    // use myObj here
+  }
+}
+</n>
+ 
