@@ -29,5 +29,26 @@ public class AnotherClass {
   }
 } 
 ```
-alright
+### 2.Use reflection:
+Reflection allows you to access and modify the behavior of a class at runtime. You can use reflection to access the private constructor and create an object of the class.
+
+**Example**
+``` Java
+public class MyClass {
+  private MyClass() {
+    // private constructor
+  }
+}
+
+public class AnotherClass {
+  public void doSomething() throws Exception {
+    Constructor<MyClass> constructor = MyClass.class.getDeclaredConstructor();
+    constructor.setAccessible(true);
+    MyClass myObj = constructor.newInstance();
+    // use myObj here
+  }
+}
+
+```
+
  
