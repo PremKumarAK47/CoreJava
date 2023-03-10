@@ -105,6 +105,8 @@ Legacy: Vector is a legacy class and is rarely used in modern Java development, 
 
 </n> In summary, if thread safety is not a concern and performance is important, then ArrayList is a better choice. However, if thread safety is a requirement or if the application is older and requires compatibility with older versions of Java, then Vector may be a better choice.</n>
 
+
+**Example Of ArrayList**
 ```java
 import java.util.ArrayList;
 
