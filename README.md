@@ -93,3 +93,6 @@ that is the use of abstract class and abstract method.
 </p> 
 
 # Difference between Array List and Vector
+
+***ArrayList and Vector are both classes in the Java Collection framework that provide dynamic arrays, but there are some differences between the two:***
+
