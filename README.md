@@ -62,7 +62,8 @@ we make Abstract class to hide the implementation of the procedure
 and showing the functionality to user, abstract class have everything 
 which have the a normal class,like constructor implementation and much more thing 
 
-Then Question arises why do we make abstract class
+Then Question arises why do we make abstract class ?
+ </n>
 Suppose there are many classes which has some common functionality then if we
 want with them all, so we have to solution either 
 1-we write every functionality in that classes every time.
