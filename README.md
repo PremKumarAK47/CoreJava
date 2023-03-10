@@ -124,3 +124,23 @@ public class ArrayListExample {
    }
 }
 ```
+
+**Example Of Vector**
+
+```java
+import java.util.Vector;
+
+public class VectorExample {
+   public static void main(String[] args) {
+      Vector<String> vec = new Vector<String>();
+      
+      // Add elements to the Vector
+      vec.add("dog");
+      vec.add("cat");
+      vec.add("bird");
+      
+      // Print the Vector
+      System.out.println("Vector: " + vec);
+   }
+}
+```
