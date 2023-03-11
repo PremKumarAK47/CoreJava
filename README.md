@@ -147,6 +147,11 @@ public class VectorExample {
 ```
 ## serializable in Java
 </n>
+In Java, serializable is an interface that marks a class as being able to be converted into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transmitted or stored.
+
+To make a class serializable, it must implement the Serializable interface. This interface doesn't have any methods; it's simply a marker interface.
+
+Here's an example of a class that implements Serializable:
 </n>
 
 
