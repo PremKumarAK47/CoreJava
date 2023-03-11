@@ -151,7 +151,7 @@ In Java, serializable is an interface that marks a class as being able to be con
 
 To make a class serializable, it must implement the Serializable interface. This interface doesn't have any methods; it's simply a marker interface.
 
-Here's an example of a class that implements Serializable:
+**Here's an example of a class that implements Serializable:**
 </n>
 
 
