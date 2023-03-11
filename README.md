@@ -179,5 +179,7 @@ public class MyClass implements Serializable {
 
 ```
 
+Once a class is marked as serializable, objects of that class can be saved to a file using an ObjectOutputStream and later retrieved using an ObjectInputStream. For example:
+
 
 
