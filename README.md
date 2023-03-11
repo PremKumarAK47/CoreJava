@@ -181,5 +181,21 @@ public class MyClass implements Serializable {
 
 Once a class is marked as serializable, objects of that class can be saved to a file using an ObjectOutputStream and later retrieved using an ObjectInputStream. For example:
 
+```
+MyClass obj = new MyClass(42, "Hello, world!");
+ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("myfile"));
+oos.writeObject(obj);
+oos.close();
+
+ObjectInputStream ois = new ObjectInputStream(new FileInputStream("myfile"));
+MyClass obj2 = (MyClass)ois.readObject();
+ois.close();
+
+System.out.println(obj2.getMyInt()); // prints 42
+System.out.println(obj2.getMyString()); // prints "Hello, world!"
+
+```
+
+
 
 
