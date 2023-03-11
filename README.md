@@ -154,7 +154,9 @@ To make a class serializable, it must implement the Serializable interface. This
 **Here's an example of a class that implements Serializable:**
 
 </n>
-```Java
+
+``` 
+
 import java.io.Serializable;
 
 public class MyClass implements Serializable {
@@ -174,6 +176,7 @@ public class MyClass implements Serializable {
         return myString;
     }
 }
+
 ```
 
 
