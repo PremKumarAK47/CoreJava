@@ -197,6 +197,8 @@ System.out.println(obj2.getMyString()); // prints "Hello, world!"
 
 Note that all fields of the class that are to be saved must either be primitive types or implement Serializable themselves. If a field does not meet this requirement, it must be marked as transient, which means it will not be saved to the output stream.
 
+## Threading and Multithreading
+
 
 
 
