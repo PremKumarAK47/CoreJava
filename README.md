@@ -145,7 +145,7 @@ public class VectorExample {
    }
 }
 ```
-## serializable in Java
+## Serializablity In Java
 </n>
 In Java, serializable is an interface that marks a class as being able to be converted into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transmitted or stored.
 
@@ -155,8 +155,7 @@ To make a class serializable, it must implement the Serializable interface. This
 
 </n>
 
-``` 
-
+```java
 import java.io.Serializable;
 
 public class MyClass implements Serializable {
@@ -181,7 +180,7 @@ public class MyClass implements Serializable {
 
 Once a class is marked as serializable, objects of that class can be saved to a file using an ObjectOutputStream and later retrieved using an ObjectInputStream. For example:
 
-```
+```java
 MyClass obj = new MyClass(42, "Hello, world!");
 ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("myfile"));
 oos.writeObject(obj);
