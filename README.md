@@ -57,7 +57,7 @@ public class AnotherClass {
 <p>
 
 
-/*
+
 we make Abstract class to hide the implementation of the procedure
 and showing the functionality to user, abstract class have everything 
 which have the a normal class,like constructor implementation and much more thing 
@@ -79,10 +79,10 @@ so in animal class define all method and make one abstract method makeNoise
 and inherit in all class and define accordingly 
 that is the use of abstract class and abstract method. </n>
 
-*/
 
 
-/*
+
+
  * Here if you notice that there is a relationship stabilized is called
  * Parent class reference and child class object
  * By this we can call all the  method of parent class or the method which 
@@ -90,7 +90,7 @@ that is the use of abstract class and abstract method. </n>
  * If we want to call the child's specific method then we need to downcast the
  * child class object and hold into the child class variable
  * then we can call,
- */
+ 
 </p> 
 
 # Difference between Array List and Vector
