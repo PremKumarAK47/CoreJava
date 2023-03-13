@@ -108,6 +108,16 @@ The reason why you cannot create an instance of an abstract class directly is be
 In summary, you can create a constructor for an abstract class to initialize its members, but you cannot create an object of an abstract class directly because it is incomplete without the implementation of its abstract methods in a subclass. </n>
 
 # Interface in Java -:
+</n> 
+An interface in programming is a contract that specifies a set of methods that a class must implement. It defines a set of rules that a class must follow to be considered compatible with the interface.
+
+There are two main types of interfaces:
+
+**Simple or Marker Interfaces:** These interfaces do not contain any method declarations. They are used to mark a class as implementing a specific behavior or capability. For example, the Serializable interface in Java is a marker interface used to indicate that a class can be serialized.
+
+**Functional Interfaces:** These interfaces contain a single abstract method and are used to define functional behavior. They are commonly used with lambda expressions in Java to create functional programming constructs. For example, the java.util.function.Predicate interface is a functional interface that defines a single method for testing a condition.
+
+</n>
 
 # Difference between Array List and Vector
 
