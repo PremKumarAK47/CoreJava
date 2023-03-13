@@ -107,6 +107,8 @@ The reason why you cannot create an instance of an abstract class directly is be
 
 In summary, you can create a constructor for an abstract class to initialize its members, but you cannot create an object of an abstract class directly because it is incomplete without the implementation of its abstract methods in a subclass. </n>
 
+# Interface in Java -:
+
 # Difference between Array List and Vector
 
 ***ArrayList and Vector are both classes in the Java Collection framework that provide dynamic arrays, but there are some differences between the two:***
