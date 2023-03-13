@@ -113,11 +113,26 @@ An interface in programming is a contract that specifies a set of methods that a
 
 There are two main types of interfaces:
 
-**Simple or Marker Interfaces:** These interfaces do not contain any method declarations. They are used to mark a class as implementing a specific behavior or capability. For example, the Serializable interface in Java is a marker interface used to indicate that a class can be serialized.
+**1. Simple or Marker Interfaces:** These interfaces do not contain any method declarations. They are used to mark a class as implementing a specific behavior or capability. For example, the Serializable interface in Java is a marker interface used to indicate that a class can be serialized.
 
-**Functional Interfaces:** These interfaces contain a single abstract method and are used to define functional behavior. They are commonly used with lambda expressions in Java to create functional programming constructs. For example, the java.util.function.Predicate interface is a functional interface that defines a single method for testing a condition.
+**2. Functional Interfaces:** These interfaces contain a single abstract method and are used to define functional behavior. They are commonly used with lambda expressions in Java to create functional programming constructs. For example, the java.util.function.Predicate interface is a functional interface that defines a single method for testing a condition.
 
 </n>
+
+</n>
+## Type of Methods avilable in Interface :
+There are several types of methods that can be defined in an interface:
+
+**Abstract methods:**  These are methods that are declared in the interface but do not have any implementation. The implementation is provided by the classes that implement the interface.
+
+**Default methods:**  These are methods that are declared with a default implementation in the interface itself. They can be overridden by the implementing class, but the default implementation is used if no implementation is provided.
+
+**Static methods:** These are methods that are declared as static in the interface and can be called without creating an instance of the interface.
+
+**Private methods:** These are methods that are declared as private in the interface and can only be called from within the interface itself. They are used to provide implementation details for other methods in the interface.
+</n>
+
+
 
 # Difference between Array List and Vector
 
