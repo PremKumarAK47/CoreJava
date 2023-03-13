@@ -120,7 +120,9 @@ There are two main types of interfaces:
 </n>
 
 </n>
+
 ## Type of Methods avilable in Interface :
+
 There are several types of methods that can be defined in an interface:
 
 **Abstract methods:**  These are methods that are declared in the interface but do not have any implementation. The implementation is provided by the classes that implement the interface.
