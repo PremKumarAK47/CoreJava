@@ -92,6 +92,7 @@ that is the use of abstract class and abstract method. </n>
  * then we can call,
  
 </p> 
+
 ## Why Can't we make object of the Abstract Class if we can make Constructor of That class ?
 
 # Difference between Array List and Vector
