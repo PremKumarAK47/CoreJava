@@ -97,6 +97,16 @@ that is the use of abstract class and abstract method. </n>
 
 ***If we can make constructor of any class it means we can make object of that class but we can make constructor of abstract class then why can't we make object that abstract class ?***
 
+
+</n>
+An abstract class is a class that cannot be instantiated directly, meaning you cannot create an object of an abstract class using the new keyword. This is because an abstract class is typically used to provide a blueprint or template for other classes to extend or implement.
+
+An abstract class may have a constructor, but it is used only to initialize the variables or members of the abstract class or its subclass. When you create an instance of a subclass that extends the abstract class, the constructor of the subclass will invoke the constructor of the abstract class as part of the instantiation process.
+
+The reason why you cannot create an instance of an abstract class directly is because it may contain abstract methods that do not have an implementation in the abstract class. These abstract methods must be implemented in a subclass, which means that the subclass must provide its own implementation of these methods. Therefore, an object of an abstract class does not make sense since it may have incomplete functionality.
+
+In summary, you can create a constructor for an abstract class to initialize its members, but you cannot create an object of an abstract class directly because it is incomplete without the implementation of its abstract methods in a subclass. </n>
+
 # Difference between Array List and Vector
 
 ***ArrayList and Vector are both classes in the Java Collection framework that provide dynamic arrays, but there are some differences between the two:***
