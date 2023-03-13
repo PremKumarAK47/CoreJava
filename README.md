@@ -95,6 +95,8 @@ that is the use of abstract class and abstract method. </n>
 
 ## Why Can't we make object of the Abstract Class if we can make Constructor of That class ?
 
+***If we can make constructor of any class it means we can make object of that class but we can make constructor of abstract class then why can't we make object that abstract class ?***
+
 # Difference between Array List and Vector
 
 ***ArrayList and Vector are both classes in the Java Collection framework that provide dynamic arrays, but there are some differences between the two:***
