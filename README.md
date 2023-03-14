@@ -255,13 +255,19 @@ Multithreading in Java refers to the ability of a program to execute multiple th
 Here are some key concepts and terms related to threading and multithreading in Java:
 </n>
 
-Thread: A separate path of execution within a program. In Java, threads are implemented using the Thread class or by implementing the Runnable interface.
-Runnable: An interface that provides a way to define a task that can be executed by a thread.
-Synchronization: A technique used to control access to shared resources by multiple threads to avoid conflicts and ensure consistency.
-Race condition: A situation that occurs when two or more threads access a shared resource simultaneously and try to modify it at the same time, leading to unpredictable results.
-Deadlock: A situation that occurs when two or more threads are blocked waiting for each other to release a resource, causing the program to hang.
-Thread pool: A collection of threads that are created and managed by the JVM to execute tasks submitted by a program.
-Executor framework: A Java API for executing tasks asynchronously using a thread pool. The Executor framework provides a way to decouple the submission of tasks from the mechanics of how they are executed. </n>
+**Thread:** A separate path of execution within a program. In Java, threads are implemented using the Thread class or by implementing the Runnable interface.
+
+**Runnable:** An interface that provides a way to define a task that can be executed by a thread.
+
+**Synchronization:** A technique used to control access to shared resources by multiple threads to avoid conflicts and ensure consistency.
+
+**Race condition:** A situation that occurs when two or more threads access a shared resource simultaneously and try to modify it at the same time, leading to unpredictable results.
+
+**Deadlock:** A situation that occurs when two or more threads are blocked waiting for each other to release a resource, causing the program to hang.
+
+**Thread pool:** A collection of threads that are created and managed by the JVM to execute tasks submitted by a program.
+
+**Executor framework:** A Java API for executing tasks asynchronously using a thread pool. The Executor framework provides a way to decouple the submission of tasks from the mechanics of how they are executed. </n>
 
 
 
