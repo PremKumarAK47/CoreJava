@@ -242,7 +242,11 @@ Note that all fields of the class that are to be saved must either be primitive 
 
 ## Threading and Multithreading
  
- Threading and multithreading are both features of the Java programming language that allow developers to write concurrent programs that can perform multiple tasks simultaneously. Here's a brief overview of threading and multithreading in Java:
+ Threading and multithreading are both features of the Java programming language that allow developers to write concurrent programs that can perform multiple tasks simultaneously. Here's a brief overview of threading and multithreading in Java: 
+ 
+ **Threading:**
+ 
+Threading in Java refers to the ability of a program to execute multiple tasks concurrently within the same process. In Java, threads are implemented using the Thread class or by implementing the Runnable interface. When a program creates a new thread, it can execute a different task simultaneously with the main thread. Each thread has its own stack and runs independently, but shares the same heap memory with other threads in the same process. Threading is often used to improve the performance of a program by dividing complex tasks into smaller, concurrent tasks.
 
 
 
