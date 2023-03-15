@@ -119,6 +119,7 @@ There are two main types of interfaces:
 
 </n>
 
+
 </n>
 
 ## Type of Methods avilable in Interface :
@@ -294,6 +295,7 @@ public class MyClass {
 }
 
 ```
+</n> In the example above, MyClass has two constructors: a regular constructor that takes an integer value, and a copy constructor that takes an object of the same class (MyClass) as a parameter. The copy constructor creates a new object with the same value as the original object. </n>
 
 
 
