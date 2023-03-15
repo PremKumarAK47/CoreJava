@@ -269,6 +269,8 @@ Here are some key concepts and terms related to threading and multithreading in 
 
 **Executor framework:** A Java API for executing tasks asynchronously using a thread pool. The Executor framework provides a way to decouple the submission of tasks from the mechanics of how they are executed. </n>
 
+## Copy constructor in java
+
 
 
 
