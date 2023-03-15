@@ -273,6 +273,28 @@ Here are some key concepts and terms related to threading and multithreading in 
 </n>
 In Java, a copy constructor is a constructor that creates an object by copying the values of another object. It is a special type of constructor that takes an object of the same class as a parameter and creates a new object with the same values as the original. </n>
 
+```java 
+public class MyClass {
+    private int value;
+    
+    // Constructor
+    public MyClass(int value) {
+        this.value = value;
+    }
+    
+    // Copy constructor
+    public MyClass(MyClass original) {
+        this.value = original.value;
+    }
+    
+    // Getter
+    public int getValue() {
+        return value;
+    }
+}
+
+```
+
 
 
 
