@@ -321,7 +321,7 @@ In Java, the Class class is a special class that represents the metadata of a cl
 
 Here are some of the key features and methods of the Class class in Java:
 
-Reflection: The Class class provides the foundation for reflection in Java. It allows you to inspect the structure and behavior of a class at runtime, even if you don't have access to the source code. For example, you can use reflection to get a list of all the methods in a class, or to invoke a method dynamically.
+**Reflection:** The Class class provides the foundation for reflection in Java. It allows you to inspect the structure and behavior of a class at runtime, even if you don't have access to the source code. For example, you can use reflection to get a list of all the methods in a class, or to invoke a method dynamically.
 
 Dynamic class loading: The Class class provides a way to load and instantiate classes dynamically at runtime. This is useful in situations where you don't know the name of a class until the program is running, or if you want to load classes from a remote location.
 
