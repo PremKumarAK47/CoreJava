@@ -15,6 +15,12 @@ public class LamdaExample {
 		};
 		
 		d.draw(5);
+		//using Lambda Expression;
+		
+		Drawable dLamda =(width)->{
+			System.out.println("Picture is Drawn with "+ width);
+			};
+		dLamda.draw(6);
 
 	}
 
