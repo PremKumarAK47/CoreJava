@@ -315,6 +315,6 @@ Null values and keys: Both HashMap and LinkedHashMap allow null values, but only
 In summary, if you need to maintain the insertion order and efficient iteration, use LinkedHashMap. If you don't need to maintain the insertion order, use HashMap for better performance.
 </n>
 
-
+## Class class in java-:
 
 
