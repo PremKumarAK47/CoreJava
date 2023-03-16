@@ -299,6 +299,8 @@ public class MyClass {
 ```
 </n> In the example above, MyClass has two constructors: a regular constructor that takes an integer value, and a copy constructor that takes an object of the same class (MyClass) as a parameter. The copy constructor creates a new object with the same value as the original object. </n>
 
+## Difference between HashMap and LinkedHashMap
+
 </n> 
 HashMap and LinkedHashMap are two implementations of the Map interface in Java that are used to store key-value pairs. However, there are some differences between them:
 
