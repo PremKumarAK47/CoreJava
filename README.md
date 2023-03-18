@@ -344,3 +344,7 @@ Overall, the Class class is an important part of the Java language, providing a 
 
 ## Set in Collection Framework -:
 
+**HashSet:**
+It uses a hash table to store the elements.
+It provides constant-time performance for adding, removing, and checking for the presence of elements.
+The order of elements is not guaranteed.
