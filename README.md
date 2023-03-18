@@ -348,3 +348,23 @@ Overall, the Class class is an important part of the Java language, providing a 
 It uses a hash table to store the elements.
 It provides constant-time performance for adding, removing, and checking for the presence of elements.
 The order of elements is not guaranteed.
+
+```java
+import java.util.HashSet;
+
+public class HashSetExample {
+   public static void main(String[] args) {
+      HashSet<String> set = new HashSet<String>();
+      
+      // Add elements to the HashSet
+      set.add("apple");
+      set.add("banana");
+      set.add("orange");
+      set.add("apple"); // duplicate element
+      
+      // Print the HashSet
+      System.out.println("HashSet: " + set);
+   }
+}
+
+```
