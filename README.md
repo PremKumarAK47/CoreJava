@@ -373,3 +373,23 @@ public class HashSetExample {
 It stores the elements in a sorted tree structure.
 It provides log(n) time complexity for adding, removing, and checking for the presence of elements.
 The elements are stored in ascending order.
+
+```java
+import java.util.TreeSet;
+
+public class TreeSetExample {
+   public static void main(String[] args) {
+      TreeSet<String> set = new TreeSet<String>();
+      
+      // Add elements to the TreeSet
+      set.add("apple");
+      set.add("banana");
+      set.add("orange");
+      set.add("apple"); // duplicate element
+      
+      // Print the TreeSet
+      System.out.println("TreeSet: " + set);
+   }
+}
+
+```
