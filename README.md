@@ -393,3 +393,7 @@ public class TreeSetExample {
 }
 
 ```
+LinkedHashSet:
+It maintains the insertion order of elements.
+It provides constant-time performance for adding, removing, and checking for the presence of elements.
+It's slower than HashSet due to additional overhead of maintaining the insertion order.
