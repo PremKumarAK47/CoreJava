@@ -393,7 +393,26 @@ public class TreeSetExample {
 }
 
 ```
-LinkedHashSet:
+**LinkedHashSet:**
 It maintains the insertion order of elements.
 It provides constant-time performance for adding, removing, and checking for the presence of elements.
 It's slower than HashSet due to additional overhead of maintaining the insertion order.
+
+```java
+import java.util.LinkedHashSet;
+
+public class LinkedHashSetExample {
+   public static void main(String[] args) {
+      LinkedHashSet<String> set = new LinkedHashSet<String>();
+      
+      // Add elements to the LinkedHashSet
+      set.add("apple");
+      set.add("banana");
+      set.add("orange");
+      set.add("apple"); // duplicate element
+      
+      // Print the LinkedHashSet
+      System.out.println("LinkedHashSet: " + set);
+   }
+}
+```
