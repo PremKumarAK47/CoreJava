@@ -342,4 +342,5 @@ Some of the important methods provided by the Class class in Java are:
 Overall, the Class class is an important part of the Java language, providing a powerful mechanism for inspecting and manipulating the properties of classes at runtime.
 </n>
 
+## Set in Collection Framework -:
 
