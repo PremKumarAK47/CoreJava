@@ -467,3 +467,8 @@ public class TreeMapExample {
 }
 
 ```
+
+**LinkedHashMap:**
+It maintains the insertion order of elements.
+It provides constant-time performance for basic operations such as adding, removing, and retrieving elements.
+It's slower than HashMap due to additional overhead of maintaining the insertion order.
