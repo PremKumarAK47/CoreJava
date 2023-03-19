@@ -442,3 +442,9 @@ public class HashMapExample {
    }
 }
 ```
+**TreeMap:**
+</n>
+It stores the keys in a sorted tree structure.
+It provides log(n) time complexity for basic operations such as adding, removing, and retrieving elements.
+The elements are stored in ascending order of the keys.
+</n>
