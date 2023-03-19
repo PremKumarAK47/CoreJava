@@ -494,3 +494,21 @@ public class LinkedHashMapExample {
 It is similar to HashMap but is thread-safe.
 It provides synchronized access to its methods, which means that it can be safely used in a multi-threaded environment.
 It's slower than HashMap due to the overhead of synchronization.
+
+```java
+import java.util.Hashtable;
+
+public class HashtableExample {
+   public static void main(String[] args) {
+      Hashtable<String, Integer> table = new Hashtable<String, Integer>();
+      
+      // Add elements to the Hashtable
+      table.put("apple", 1);
+      table.put("banana", 2);
+      table.put("orange", 3);
+      
+      // Print the Hashtable
+      System.out.println("Hashtable: " + table);
+   }
+}
+```
