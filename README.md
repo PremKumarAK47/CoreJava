@@ -472,3 +472,21 @@ public class TreeMapExample {
 It maintains the insertion order of elements.
 It provides constant-time performance for basic operations such as adding, removing, and retrieving elements.
 It's slower than HashMap due to additional overhead of maintaining the insertion order.
+
+```java
+import java.util.LinkedHashMap;
+
+public class LinkedHashMapExample {
+   public static void main(String[] args) {
+      LinkedHashMap<String, Integer> map = new LinkedHashMap<String, Integer>();
+      
+      // Add elements to the LinkedHashMap
+      map.put("apple", 1);
+      map.put("banana", 2);
+      map.put("orange", 3);
+      
+      // Print the LinkedHashMap
+      System.out.println("LinkedHashMap: " + map);
+   }
+}
+```
