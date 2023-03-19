@@ -490,3 +490,7 @@ public class LinkedHashMapExample {
    }
 }
 ```
+**Hashtable:**
+It is similar to HashMap but is thread-safe.
+It provides synchronized access to its methods, which means that it can be safely used in a multi-threaded environment.
+It's slower than HashMap due to the overhead of synchronization.
