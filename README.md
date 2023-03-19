@@ -424,3 +424,21 @@ public class LinkedHashSetExample {
 It uses a hash table to store the keys and values.
 It provides constant-time performance for basic operations such as adding, removing, and retrieving elements.
 The order of elements is not guaranteed.</n>
+
+```java
+import java.util.HashMap;
+
+public class HashMapExample {
+   public static void main(String[] args) {
+      HashMap<String, Integer> map = new HashMap<String, Integer>();
+      
+      // Add elements to the HashMap
+      map.put("apple", 1);
+      map.put("banana", 2);
+      map.put("orange", 3);
+      
+      // Print the HashMap
+      System.out.println("HashMap: " + map);
+   }
+}
+```
