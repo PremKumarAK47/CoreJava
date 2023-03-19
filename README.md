@@ -419,3 +419,8 @@ public class LinkedHashSetExample {
 ## Maps in Java -:
 
 </n>In the Java Collection framework, a Map is an object that maps keys to values. The Map interface is implemented by several classes in Java, including HashMap, TreeMap, LinkedHashMap, and Hashtable. </n>
+
+</n> **HashMap:**
+It uses a hash table to store the keys and values.
+It provides constant-time performance for basic operations such as adding, removing, and retrieving elements.
+The order of elements is not guaranteed.</n>
