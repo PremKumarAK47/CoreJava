@@ -448,3 +448,22 @@ It stores the keys in a sorted tree structure.
 It provides log(n) time complexity for basic operations such as adding, removing, and retrieving elements.
 The elements are stored in ascending order of the keys.
 </n>
+
+```java
+import java.util.TreeMap;
+
+public class TreeMapExample {
+   public static void main(String[] args) {
+      TreeMap<String, Integer> map = new TreeMap<String, Integer>();
+      
+      // Add elements to the TreeMap
+      map.put("apple", 1);
+      map.put("banana", 2);
+      map.put("orange", 3);
+      
+      // Print the TreeMap
+      System.out.println("TreeMap: " + map);
+   }
+}
+
+```
