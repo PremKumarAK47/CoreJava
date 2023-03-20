@@ -534,3 +534,10 @@ Lambda expressions can also be used with block statements:
     }
 }
 
+Lambda expressions can be used in many contexts in Java, including:
+
+Collections: to iterate over elements
+Streams: to process data
+Event handling: to define actions to be taken when an event occurs
+Concurrency: to define tasks to be executed in parallel
+
