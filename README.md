@@ -512,3 +512,4 @@ public class HashtableExample {
    }
 }
 ```
+## Lambda expression in java
