@@ -526,3 +526,11 @@ For example, here's a lambda expression that takes two integers and returns thei
 
 Lambda expressions can also be used with block statements:
 
+(int a, int b) -> {
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
