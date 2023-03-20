@@ -521,3 +521,6 @@ Lambda expressions are typically used with functional interfaces, which are inte
 (parameter list) -> expression
 
 For example, here's a lambda expression that takes two integers and returns their sum:
+
+(int a, int b) -> a + b
+
