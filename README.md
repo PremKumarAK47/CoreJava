@@ -513,3 +513,5 @@ public class HashtableExample {
 }
 ```
 ## Lambda expression in java
+
+Lambda expressions are a feature introduced in Java 8 that allow you to write more concise and expressive code. A lambda expression is a small piece of code that can be treated as a function and passed around as an argument to other methods.
