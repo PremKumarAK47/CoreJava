@@ -522,7 +522,10 @@ Lambda expressions are typically used with functional interfaces, which are inte
 
 For example, here's a lambda expression that takes two integers and returns their sum:
 
+``` java
 (int a, int b) -> a + b
+
+```
 
 Lambda expressions can also be used with block statements:
 
