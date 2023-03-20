@@ -538,7 +538,7 @@ Lambda expressions can also be used with block statements:
 }
 ```
 
-Lambda expressions can be used in many contexts in Java, including:
+#### Lambda expressions can be used in many contexts in Java, including:
 
 - Collections: to iterate over elements
 - Streams: to process data
