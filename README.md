@@ -529,6 +529,7 @@ For example, here's a lambda expression that takes two integers and returns thei
 
 Lambda expressions can also be used with block statements:
 
+```java
 (int a, int b) -> {
     if (a > b) {
         return a;
@@ -536,6 +537,7 @@ Lambda expressions can also be used with block statements:
         return b;
     }
 }
+```
 
 Lambda expressions can be used in many contexts in Java, including:
 
