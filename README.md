@@ -545,5 +545,6 @@ Lambda expressions can also be used with block statements:
 - Event handling: to define actions to be taken when an event occurs
 - Concurrency: to define tasks to be executed in parallel
 
-Lambda expressions are a powerful tool for writing cleaner and more concise code in Java. However, they do require some understanding of functional programming concepts and may take some time to get used to.
+Lambda expressions are a powerful tool for writing cleaner and more concise code in Java.
+However, they do require some understanding of functional programming concepts and may take some time to get used to.
 
