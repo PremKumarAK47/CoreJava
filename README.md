@@ -62,7 +62,7 @@ In Java, inheritance is a mechanism that allows one class to inherit properties 
 
 - **Multilevel inheritance:** Multilevel inheritance is a type of inheritance in which a subclass inherits properties from its parent class, which in turn inherits properties from its parent class, and so on. In other words, there is a chain of inheritance between multiple classes.
 
-Hierarchical inheritance: Hierarchical inheritance is a type of inheritance in which multiple subclasses inherit properties from a single parent class. In other words, there is one parent class and multiple child classes.
+- **Hierarchical inheritance:** Hierarchical inheritance is a type of inheritance in which multiple subclasses inherit properties from a single parent class. In other words, there is one parent class and multiple child classes.
 
 Multiple inheritance: Multiple inheritance is a type of inheritance in which a subclass inherits properties from multiple parent classes. However, Java does not support multiple inheritance of classes, but it can be achieved using interfaces.
 
