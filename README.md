@@ -56,7 +56,19 @@ public class AnotherClass {
 
 ## Types Of Inheritance In Java -:
 
+In Java, inheritance is a mechanism that allows one class to inherit properties (methods and fields) from another class. There are five types of inheritance in Java:
 
+Single inheritance: Single inheritance is the most common type of inheritance in which a subclass inherits properties from a single superclass. In other words, there is only one parent class for the subclass.
+
+Multilevel inheritance: Multilevel inheritance is a type of inheritance in which a subclass inherits properties from its parent class, which in turn inherits properties from its parent class, and so on. In other words, there is a chain of inheritance between multiple classes.
+
+Hierarchical inheritance: Hierarchical inheritance is a type of inheritance in which multiple subclasses inherit properties from a single parent class. In other words, there is one parent class and multiple child classes.
+
+Multiple inheritance: Multiple inheritance is a type of inheritance in which a subclass inherits properties from multiple parent classes. However, Java does not support multiple inheritance of classes, but it can be achieved using interfaces.
+
+Hybrid inheritance: Hybrid inheritance is a combination of multiple types of inheritance. It is a mix of single, multilevel, hierarchical, and multiple inheritance.
+
+In Java, inheritance is implemented using the "extends" keyword in the class declaration.
 
 
 
