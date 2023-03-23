@@ -70,6 +70,12 @@ In Java, inheritance is a mechanism that allows one class to inherit properties 
 
 In Java, inheritance is implemented using the "extends" keyword in the class declaration.
 
+```java
+class ChildClass extends ParentClass {
+    // class body
+}
+```
+
 
 
 ## Concept About Abstract Class
