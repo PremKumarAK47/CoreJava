@@ -53,6 +53,13 @@ public class AnotherClass {
 }
 
 ```
+
+## Types Of Inheritance In Java -:
+
+
+
+
+
 ## Concept About Abstract Class
 <p>
 
