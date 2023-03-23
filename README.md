@@ -66,7 +66,7 @@ In Java, inheritance is a mechanism that allows one class to inherit properties 
 
 - **Multiple inheritance:** Multiple inheritance is a type of inheritance in which a subclass inherits properties from multiple parent classes. However, Java does not support multiple inheritance of classes, but it can be achieved using interfaces.
 
-Hybrid inheritance: Hybrid inheritance is a combination of multiple types of inheritance. It is a mix of single, multilevel, hierarchical, and multiple inheritance.
+- **Hybrid inheritance:** Hybrid inheritance is a combination of multiple types of inheritance. It is a mix of single, multilevel, hierarchical, and multiple inheritance.
 
 In Java, inheritance is implemented using the "extends" keyword in the class declaration.
 
