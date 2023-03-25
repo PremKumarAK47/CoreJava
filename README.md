@@ -172,7 +172,7 @@ There are several types of methods that can be defined in an interface:
 ***ArrayList and Vector are both classes in the Java Collection framework that provide dynamic arrays, but there are some differences between the two:***
 Thread-Safety: Vector is thread-safe, meaning that it is synchronized and multiple threads can access it simultaneously without causing data inconsistency. ArrayList is not thread-safe, and if multiple threads try to modify it simultaneously, it can result in data inconsistency.
 
-Performance: ArrayList performs better than Vector in most cases, as Vector's synchronization adds overhead and can slow down the performance.
+**Performance:** ArrayList performs better than Vector in most cases, as Vector's synchronization adds overhead and can slow down the performance.
 
 Capacity: When a Vector is created, it has a default capacity and when the capacity is reached, it automatically increases its size by a certain amount. In contrast, when an ArrayList is created, it has a default capacity but when that capacity is exceeded, it doubles its size.
 
