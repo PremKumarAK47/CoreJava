@@ -582,7 +582,7 @@ However, they do require some understanding of functional programming concepts a
 
 Constructor overloading and overriding are two different concepts in Java that are used to create and initialize objects.
 
-Constructor Overloading:
+**Constructor Overloading:**
 Constructor overloading refers to defining multiple constructors in a class with different parameters. It is used to create objects of a class with different initial states. In constructor overloading, the constructors have the same name but different signatures (different parameters).
 
 For Example -:
@@ -610,7 +610,7 @@ public class Employee {
 ```
 In the above example, the class Employee has three constructors: a default constructor with no arguments, a parameterized constructor with two arguments (name and id), and another parameterized constructor with only one argument (name).
 
-Constructor Overriding:
+**Constructor Overriding:**
 Constructor overriding is not possible in Java. Unlike other methods, constructors are not inherited in Java, so they cannot be overridden. However, a subclass can call the constructor of its superclass using the super() keyword.
 
 For example:
