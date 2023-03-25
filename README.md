@@ -578,3 +578,56 @@ Lambda expressions can also be used with block statements:
 Lambda expressions are a powerful tool for writing cleaner and more concise code in Java.
 However, they do require some understanding of functional programming concepts and may take some time to get used to.
 
+## Constructor Overloading and Overriding -:
+
+Constructor overloading and overriding are two different concepts in Java that are used to create and initialize objects.
+
+Constructor Overloading:
+Constructor overloading refers to defining multiple constructors in a class with different parameters. It is used to create objects of a class with different initial states. In constructor overloading, the constructors have the same name but different signatures (different parameters).
+
+For Example -:
+
+```java
+public class Employee {
+  private String name;
+  private int id;
+  
+  public Employee() {
+    this.name = "";
+    this.id = 0;
+  }
+  
+  public Employee(String name, int id) {
+    this.name = name;
+    this.id = id;
+  }
+  
+  public Employee(String name) {
+    this.name = name;
+    this.id = 0;
+  }
+}
+```
+In the above example, the class Employee has three constructors: a default constructor with no arguments, a parameterized constructor with two arguments (name and id), and another parameterized constructor with only one argument (name).
+
+Constructor Overriding:
+Constructor overriding is not possible in Java. Unlike other methods, constructors are not inherited in Java, so they cannot be overridden. However, a subclass can call the constructor of its superclass using the super() keyword.
+
+For example:
+
+```java
+public class Animal {
+  public Animal() {
+    System.out.println("Animal constructor");
+  }
+}
+
+public class Dog extends Animal {
+  public Dog() {
+    super();
+    System.out.println("Dog constructor");
+  }
+}
+
+```
+In the above example, the class Dog extends the class Animal. The constructor of Dog calls the constructor of Animal using the super() keyword before executing its own code. This is not constructor overriding, but rather constructor chaining.
