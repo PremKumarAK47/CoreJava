@@ -608,7 +608,7 @@ public class Employee {
   }
 }
 ```
-In the above example, the class Employee has three constructors: a default constructor with no arguments, a parameterized constructor with two arguments (name and id), and another parameterized constructor with only one argument (name).
+In the above example, the class Employee has three Constructors: a default constructor with no arguments, a parameterized constructor with two arguments (name and id), and another parameterized constructor with only one argument (name).
 
 **Constructor Overriding:**
 Constructor overriding is not possible in Java. Unlike other methods, constructors are not inherited in Java, so they cannot be overridden. However, a subclass can call the constructor of its superclass using the super() keyword.
