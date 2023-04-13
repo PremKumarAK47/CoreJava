@@ -18,6 +18,8 @@ public class Demo {
 		 * also note that the function signature should be same like
 		 * return type and no of passing argument.
 		 * example given below
+		 * if method defined is non static then make the object then use 
+		 * but it should match with the method of interface
 		 */
 		
 		Inter i2= Demo::funX;
