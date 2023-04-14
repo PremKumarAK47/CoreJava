@@ -29,6 +29,9 @@ public class Demo {
 		i1.sayHello("Ranjeet");
 		i2.sayHello("Ranjeet");
 		i3.sayHello("Ranjeet");
+		
+		InterParameter i4= n->System.out.println("This is Fourth Possible Way "+n);
+		i4.sayHello("Ranjeet");
 
 	}
 
